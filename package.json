@@ -1,0 +1,22 @@
+{
+  "name": "rebuilt-curl",
+  "version": "1.0.0",
+  "description": "Standalone CLI HTTP client modeled after curl's parameter dispatch architecture",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "rebuilt-curl": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "curl",
+    "http",
+    "cli",
+    "fetch"
+  ],
+  "author": "",
+  "license": "MIT"
+}
